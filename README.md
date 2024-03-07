@@ -2,7 +2,8 @@
 Package will securely Encrypt/Sign / Decrypt/Verify a req payload using RSA certificates 
 - Prerequisite must have a valid RSA private/public certificates
 
-
+## Badge
+[![build](https://github.com/bayugyug/jwesigner/actions/workflows/ci.yml/badge.svg)](https://github.com/bayugyug/jwesigner/actions/workflows/ci.yml)
 
 ## Workflow
 
@@ -45,7 +46,7 @@ PUBKEY=/tmp/${PREFIX}-pub.txt
 
 # generate
 openssl genrsa -out $PRIVKEY 4096
-openssl req -new -x509 -key $PRIVKEY -out $CACERT -days 3650 -subj "/C=SG/ST='Singapore'/L='Singapore/O=Bayugismo/OU='Engineering'/CN=*.bayugismo.space"
+openssl req -new -x509 -key $PRIVKEY -out $CACERT -days 3650 -subj "/C=SG/ST='Singapore'/L='Singapore/O=Bayugismo/OU='Engineering'/CN=*.bayugismo.sYOUR-API"
 openssl x509 -inform PEM -in $CACERT -outform DER -out $DERCERT
 openssl x509 -inform der -in $DERCERT -noout -pubkey > $PUBKEY
 
