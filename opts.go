@@ -6,7 +6,7 @@ import (
 	"encoding/pem"
 	"errors"
 
-	"github.com/bayugyug/authorizer/commons"
+	"github.com/bayugyug/commons"
 	"github.com/golang-jwt/jwt/v4"
 )
 

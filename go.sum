@@ -1,5 +1,5 @@
-github.com/bayugyug/authorizer v0.0.0-20240307172248-e8a10e27b27c h1:GWwoQ1s91oPwLl9Oyan5rkZGGOXGoD3/MVRsonlEc3Y=
-github.com/bayugyug/authorizer v0.0.0-20240307172248-e8a10e27b27c/go.mod h1:MZMpw+rUh2WL6Ri07m08ExDkq18iqYs0+ysTYQhjFhs=
+github.com/bayugyug/commons v0.0.0-20240310093003-afd70a586e29 h1:j+0O9Q8uTekdw31WeInKodxika6xVdpDtsob1XZfjfQ=
+github.com/bayugyug/commons v0.0.0-20240310093003-afd70a586e29/go.mod h1:7+JG5v5gzj5rMuPykoDsMWCKa5GAN8LRQm18QnvAGgw=
 github.com/chzyer/logex v1.1.10/go.mod h1:+Ywpsq7O8HXn0nuIou7OrIPyXbp3wmkHB+jjWRnGsAI=
 github.com/chzyer/readline v0.0.0-20180603132655-2972be24d48e/go.mod h1:nSuG5e5PlCu98SY8svDHJxuZscDgtXS6KTTbou5AhLI=
 github.com/chzyer/test v0.0.0-20180213035817-a1ea475d72b1/go.mod h1:Q3SI9o4m/ZMnBNeIyt5eFwwo7qiLfzFZmjNmxjkiQlU=

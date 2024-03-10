@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/bayugyug/authorizer/commons"
+	"github.com/bayugyug/commons"
 	"github.com/bayugyug/jwesigner"
 	"github.com/bayugyug/jwesigner/mock"
 	"github.com/icrowley/fake"
